@@ -412,6 +412,7 @@ legend {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  margin-bottom: 40px;
 }
 
 
@@ -426,6 +427,32 @@ legend {
 }
 
 .block-text:hover {
+  color: rgb(0, 25, 248);
+}
+
+/* footer */
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-right: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.social:hover {
   color: rgb(0, 25, 248);
 }
 
