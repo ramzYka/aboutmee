@@ -401,3 +401,32 @@ legend {
   color: gold;
 }
 
+/* portfolio */
+
+.portfolio {
+  margin-top: 100px;
+}
+
+.blocks {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+
+.block-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.block-text:hover {
+  color: rgb(0, 25, 248);
+}
+
+
